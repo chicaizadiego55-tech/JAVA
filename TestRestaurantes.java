@@ -7,7 +7,7 @@ public class TestRestaurantes {
         Restaurante rest1 = new Restaurante();
         Restaurante rest2 = new Restaurante();
 
-        // Valores por defecto
+       
         System.out.println("=== VALORES POR DEFECTO ===");
 
         System.out.println("Restaurante 1");
