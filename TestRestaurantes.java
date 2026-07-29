@@ -22,7 +22,7 @@ public class TestRestaurantes {
         System.out.println("Dirección: " + rest2.direccion);
         System.out.println("Calificación: " + rest2.calificacion);
 
-        // Modificar atributos
+        
 
         rest1.nombre = "La Casona";
         rest1.direccion = "Av. Amazonas, Quito";
@@ -32,7 +32,7 @@ public class TestRestaurantes {
         rest2.direccion = "Pifo, Quito";
         rest2.calificacion = 4.5f;
 
-        System.out.println("\n=== VALORES MODIFICADOS ===");
+        System.out.println("=== VALORES MODIFICADOS ===");
 
         System.out.println("Restaurante 1");
         System.out.println("Nombre: " + rest1.nombre);
