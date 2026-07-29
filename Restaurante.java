@@ -6,6 +6,12 @@ public class Restaurante {
     private String direccion;
     private float calificacion;
 
+    public Restaurante(String nombre, String direccion, float calificacion) {
+        this.nombre = nombre;
+        this.direccion = direccion;
+        this.calificacion = calificacion;
+    }
+
     public String getNombre() {
         return nombre;
     }
@@ -29,5 +35,4 @@ public class Restaurante {
     public void setCalificacion(float calificacion) {
         this.calificacion = calificacion;
     }
-
 }

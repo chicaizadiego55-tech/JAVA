@@ -4,6 +4,10 @@ public class Cuadrado {
 
     private double lado;
 
+    public Cuadrado(double lado) {
+        this.lado = lado;
+    }
+
     public double getLado() {
         return lado;
     }
@@ -19,5 +23,4 @@ public class Cuadrado {
     public double calcularPerimetro() {
         return lado * 4;
     }
-
 }
