@@ -1,50 +1,43 @@
 package com.krakedev;
 
-public class TestRestaurantes {
+public class TestRestaurante {
 
     public static void main(String[] args) {
 
         Restaurante rest1 = new Restaurante();
         Restaurante rest2 = new Restaurante();
 
-       
         System.out.println("=== VALORES POR DEFECTO ===");
 
-        System.out.println("Restaurante 1");
-        System.out.println("Nombre: " + rest1.nombre);
-        System.out.println("Dirección: " + rest1.direccion);
-        System.out.println("Calificación: " + rest1.calificacion);
+        System.out.println(rest1.getNombre());
+        System.out.println(rest1.getDireccion());
+        System.out.println(rest1.getCalificacion());
 
         System.out.println();
 
-        System.out.println("Restaurante 2");
-        System.out.println("Nombre: " + rest2.nombre);
-        System.out.println("Dirección: " + rest2.direccion);
-        System.out.println("Calificación: " + rest2.calificacion);
+        System.out.println(rest2.getNombre());
+        System.out.println(rest2.getDireccion());
+        System.out.println(rest2.getCalificacion());
 
-        
+        rest1.setNombre("La Casona");
+        rest1.setDireccion("Av. Amazonas");
+        rest1.setCalificacion(4.8f);
 
-        rest1.nombre = "La Casona";
-        rest1.direccion = "Av. Amazonas, Quito";
-        rest1.calificacion = 4.8f;
+        rest2.setNombre("El Buen Sabor");
+        rest2.setDireccion("Pifo");
+        rest2.setCalificacion(4.5f);
 
-        rest2.nombre = "El Buen Sabor";
-        rest2.direccion = "Pifo, Quito";
-        rest2.calificacion = 4.5f;
+        System.out.println("\n=== VALORES MODIFICADOS ===");
 
-        System.out.println("=== VALORES MODIFICADOS ===");
-
-        System.out.println("Restaurante 1");
-        System.out.println("Nombre: " + rest1.nombre);
-        System.out.println("Dirección: " + rest1.direccion);
-        System.out.println("Calificación: " + rest1.calificacion);
+        System.out.println(rest1.getNombre());
+        System.out.println(rest1.getDireccion());
+        System.out.println(rest1.getCalificacion());
 
         System.out.println();
 
-        System.out.println("Restaurante 2");
-        System.out.println("Nombre: " + rest2.nombre);
-        System.out.println("Dirección: " + rest2.direccion);
-        System.out.println("Calificación: " + rest2.calificacion);
+        System.out.println(rest2.getNombre());
+        System.out.println(rest2.getDireccion());
+        System.out.println(rest2.getCalificacion());
 
     }
 
